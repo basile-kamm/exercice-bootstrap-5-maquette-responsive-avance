@@ -17,6 +17,7 @@
 
 html {
   font-size: 16px;
+  font-family: "Rubik", sans-serif;
 }
 
 body {
@@ -39,14 +40,42 @@ video {
   vertical-align: middle;
 }
 
-.row + .row {
-  margin-top: 16px;
+/* Header CSS*/
+
+header {
+  background-image: url(../img/header-background.jpg);
+  height: 495px;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  padding: 30px 0;
+  text-transform: uppercase;
 }
 
-.row > .col,
-.row > [class^="col-"] {
-  padding-top: 12px;
-  padding-bottom: 12px;
-  background-color: rgba(86, 61, 124, 0.15);
-  border: 1px solid rgba(86, 61, 124, 0.2);
+header a {
+  font-size: 16px;
+  color: #fff;
+  text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+  text-decoration: none;
+  margin-right: 30px;
+}
+
+header a:last-of-type {
+  margin: 0;
+}
+
+h1 {
+  font-size: 100px;
+  font-weight: 500;
+  color: #fff;
+  text-align: center;
+  text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+  margin: 50px 0 20px;
+}
+
+.subtitle {
+  color: #fff;
+  text-align: center;
+  text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+  font-size: 30px;
 }
